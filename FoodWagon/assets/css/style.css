@@ -1,0 +1,231 @@
+:root {
+    --bs-blue: #2780ED;
+    --bs-indigo: #6237FF;
+    --bs-purple: #A71CFF;
+    --bs-pink: #D42DA3;
+    --bs-red: #F17228;
+    --bs-orange: #F17228;
+    --bs-yellow: #FFB30E;
+    --bs-green: #79B93C;
+    --bs-teal: #53F283;
+    --bs-cyan: #24FFEA;
+    --bs-white: #FFFEFE;
+    --bs-gray: #9E9E9E;
+    --bs-gray-dark: #616161;
+    --bs-primary: #FFB30E;
+    --bs-secondary: #2780ED;
+    --bs-success: #79B93C;
+    --bs-info: #24FFEA;
+    --bs-warning: #FFB30E;
+    --bs-danger: #F17228;
+    --bs-light: #F9FAFD;
+    --bs-dark: #212121;
+    --bs-font-sans-serif: "Source Sans Pro", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --bs-font-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 254, 254, 0.15), rgba(255, 254, 254, 0));
+}
+
+.text-gradient {
+    background: -o-linear-gradient(40deg, #fb3c00, #ffb800);
+    background: linear-gradient(50deg, #fb3c00, #ffb800);
+    background-clip: text;
+    color: transparent;
+}
+
+.foodwagon-text {
+    background-image: linear-gradient(to right, #FFAE00, #FF8A00);
+    background-clip: text;
+    color: transparent;
+}
+
+/* ARE YOU STARVING SECTION */
+
+.are-you-starving {
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    background: url(../images/banner-food-pic/Banner-background.png);
+}
+
+.starving-text {
+    color: white;
+}
+
+.address {
+    border: none;
+    width: 400px;
+}
+
+.food-banner-pic img:hover {
+    padding-top: 20px;
+}
+
+.discount-badge {
+    position: absolute;
+    bottom: 0px;
+    /* left: 10px; */
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    padding: 1px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.days-remaining {
+    background: rgba(241, 114, 40, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.flex-between-center {
+    align-items: center;
+}
+
+.card {
+    position: relative;
+}
+
+.how-does-work {
+    background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+    /* overflow: hidden; */
+}
+
+.form {
+    border-radius: 12px;
+    /* padding-top: 23px; */
+    background-color: white;
+    width: 70%;
+}
+
+.card-para {
+    color: var(--bs-yellow);
+}
+
+.order-btn {
+    background-color: var(--bs-danger);
+    color: var(--bs-white);
+}
+
+.grey-btn-back {
+    background-color: var(--bs-white);
+    border: none;
+}
+
+.pop-arrow-circle {
+    background-color: var(--bs-yellow);
+    color: var(--bs-white);
+}
+
+.tags-portion {
+    background-color: var(--bs-danger);
+    width: 32%;
+    position: absolute;
+    top: 0px;
+    /* left: 10px; */
+    background-color: rgb(238, 125, 49);
+    color: rgb(255, 255, 255);
+    padding: 1px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.clocks-portion {
+    background-color: var(--bs-danger);
+    width: 28%;
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    padding: 1px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 23px;
+    z-index: 1;
+}
+
+.days-remaining-open {
+    background-color: lightgreen;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Background Holder */
+
+.bg-holder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Daily Discounts Section */
+
+.daily-discounts {
+    position: relative;
+    z-index: 1;
+    /* Add other styling as needed */
+}
+
+.phone-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* BEST DEAL SANDWICHES */
+
+.pb-5 {
+    padding-bottom: 3rem !important;
+}
+
+.pt-8 {
+    padding-top: 7.5rem !important;
+}
+
+section {
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.py-0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.pt-5 {
+    padding-top: 3rem !important;
+}
+
+/* FOOTER SECTION */
+
+/* Styles for footer section */
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #BDBDBD;
+}
+
+.bg-holder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url(../images/after-search-bg/another-banner.png);
+    background-position: center;
+    background-size: cover;
+}

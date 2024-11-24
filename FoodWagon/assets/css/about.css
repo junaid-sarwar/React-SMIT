@@ -1,0 +1,246 @@
+/* .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .about-content {
+    flex: 1;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  .about-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 10px;
+  }
+  
+  .brand-name {
+    font-weight: bold;
+    color: #ff5722;
+  }
+  
+  .about-image {
+    flex: 1;
+    margin-bottom: 30px;
+  }
+  
+  .responsive-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .founder-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin-top: 30px;
+  }
+  
+  .founder-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .founder-details {
+    text-align: center;
+  }
+  
+  .founder-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .founder-role {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .founder-quote {
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #555;
+  }
+  
+  @media (min-width: 768px) {
+    .about-container {
+      flex-direction: row;
+      padding: 40px;
+    }
+  }
+  
+  .about-content {
+    flex: 1;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .about-content {
+      text-align: left;
+      margin-right: 40px;
+    }
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  .about-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 10px;
+  }
+  
+  .brand-name {
+    font-weight: bold;
+    color: #ff5722;
+  }
+  
+  .about-image {
+    flex: 1;
+  }
+  
+  .responsive-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+   */
+
+   /* About.css */
+.about-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Content Section */
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    color: #4caf50; /* Green Theme */
+    margin-bottom: 20px;
+  }
+  
+  .about-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  .brand-name {
+    font-weight: bold;
+    color: #ff5722; /* Orange Accent */
+  }
+  
+  /* Image Section */
+  .about-image {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Founder Section */
+  .founder-section {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .founder-title {
+    font-size: 2rem;
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  .founder-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 768px) {
+    .founder-card {
+      flex-direction: row;
+      text-align: left;
+    }
+  }
+  
+  .founder-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 768px) {
+    .founder-image {
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+  }
+  
+  .founder-details {
+    flex: 1;
+  }
+  
+  .founder-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .founder-description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  
