@@ -2,9 +2,13 @@ import React from "react";
 import "../../assets/css/about.css";
 import FoodTruckPic from "../../assets/images/LOGO/food-logo.jpg";
 import FounderPic from "../../assets/images/Founder-Image/founder-check.jpg"
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const About = () => {
   return (
+    <>
+    <Header/>
     <div className="about-container">
       <div className="about-content">
         <h1 className="about-title">About Foodwagon</h1>
@@ -40,7 +44,11 @@ const About = () => {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
+
+
 
 export default About;

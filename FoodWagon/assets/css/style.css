@@ -55,15 +55,17 @@
     border: none;
     width: 400px;
 }
-
-.food-banner-pic img:hover {
+.food-banner-pic{
     padding-top: 20px;
 }
+
+/* .food-banner-pic img:hover {
+    padding-top: 30px;
+} */
 
 .discount-badge {
     position: absolute;
     bottom: 0px;
-    /* left: 10px; */
     background-color: orange;
     color: rgb(255, 255, 255);
     padding: 1px 20px;
